@@ -1,0 +1,37 @@
+.Footer-container{
+    position: relative;
+   
+}
+.Footer-container>hr{
+    border:  1px solid var(--ligh tgray);
+}
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+  
+
+}
+.Footer-Social{
+    display: flex;
+    gap: 4rem;
+   
+}
+.Footer-Social>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.footer-h>img{
+width: 10rem;
+}
+.footer-para{
+    align-items: center;
+    color: white;
+  
+}

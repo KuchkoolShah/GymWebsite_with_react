@@ -1,0 +1,39 @@
+.Planes-container{
+    margin-top: 4rem;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+    }
+
+    .Plans{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .plan{
+       
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 15rem;
+        background:var(--caloryCard);
+      
+        }
+        .plan:nth-child(2){
+            transform: scale(1.1);
+            background:var(--planCard);
+        }
+
+        @media screen and (max-width:768px) {
+
+           
+            
+                .Plans{
+                  flex-direction: column;
+                }
+            }
